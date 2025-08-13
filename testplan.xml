@@ -2,9 +2,6 @@
     <test name="Smoke Tests">
      <classes>
         <class name="tests.TestngTest">
-            <methods>
-                <include name="hello" />
-            </methods>
         </class>
      </classes>
     </test>
