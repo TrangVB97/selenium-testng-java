@@ -21,7 +21,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Test
-        run: mvn clean test -Dtestplan=full.xml
+        run: mvn clean test -Dtestplan=testng.xml
       - name: Report
         uses: dorny/test-reporter@v1
         if: success() || failure()
